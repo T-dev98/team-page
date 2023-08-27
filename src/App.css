@@ -1,38 +1,121 @@
 .App {
   text-align: center;
+  font-family: Poppins;  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #6c757d;
+  padding: 10px;
+  color: #f8f9fa;
+}
+.header{
+  color:#5914db;;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.App-content {
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.university {
+  background-color: #e6e7ea;
+  color: #123b5f;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(222, 220, 220);
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  font-size: 20px;
+}
+.university img{
+  height: 150px;
+  width: 150px;
+  border: 1px solid #6f42c1;
+  border-radius: 5px;
+}
+.article-head{
+  color:#5914db;
+  font-size: 25px;
+}
+.main-article {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mentors {
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  color: #123b5f;
+  font-size: 18px;
+}
+.mentors img{
+  width: 200px;
+  border: 2px solid rgb(199, 199, 199);
+  border-radius: 50%;
+}
+#ft-head{
+  font-size: 30x;
+  color:#5914db;
+}
+#foot{
+  font-size: 20px;
+  color: #5914db;
+}
+.App-footer {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.advisor {
+  background-color: #ede8e8;
+  border: 2px solid rgb(244, 244, 244);
+  border-radius: 50px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  height: 375px;
+  color: #123b5f;
+}
+.pro{
+  border-radius: 50%;
+  width: 200px;
+}
+.founder{
+  border-radius: 50%;
+  width: 150px;
+}
+.lead{
+  border-radius: 50%;
+  width: 205px;
+}
+.btn{
+  background-color: #ffffff;
+  color: rgb(12, 173, 237);
+  border-top: 3px solid rgb(121, 38, 198);
+  border-left: 3px solid rgb(121, 42, 196);
+  border-bottom: 1px solid blueviolet;
+  border-right: 1px solid blueviolet;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.btn img{
+  width: 15px;
+  margin-left: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
